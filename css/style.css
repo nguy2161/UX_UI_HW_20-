@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/*navbar Start*/
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    padding-top: 10px;
+
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+
+}
+nav ul li a {
+    color: #404040;
+    font-weight: medium;
+    text-decoration: none;
+    font-size: 14px;
+}  
+
+nav ul li a:hover {
+    color: #d14224;
+}    
+.logo{
+    cursor: pointer;
+    margin:10px 40px ;
+    max-width: 85%;
+    max-height: 85%;
+    align-items: center;
+}
+/*navbar End*/
+Jumbotron h2{
+    font-size: 32px;
+    font-weight: 300;
+ }
+
+h1 {
+    font-size: 55px;
+    color: #de5d00;
+    font-weight: 700;
+}
+   
+h2 {
+    font-size: 29px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 20px;
+   margin:15px 0;
+}
+h4 {
+   font-size: 30px;
+   color: #de5d00;
+   font-weight:lighter;
+   letter-spacing: 1px;
+}
+p {
+   font-size: 16px;
+   line-height: 27px;
+}
+/*Jumbotron Start*/
+
+Jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbf1e9;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.nav {
+    padding: 40px 0;
+    display: flex;
+}
+.nav a{
+    color: #d14224;
+}
+.Overview {
+    padding: 0 20px;
+    margin: 25px 100px;
+}
+
+.Overview > .col {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Overview > .col > .row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Overview > .col > .row > .col-1 {
+    min-width: 200px;
+}
+.col-2 {
+    width: 850px;
+}
+
+.The_Problem {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.The_Solution {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.My_Process{
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Process{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.Website_Assessment {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Assessment_Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 60px;
+
+}
+.Interviews {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+
+.Affinity_Diagram {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Affinity_Diagram > img{
+    margin-top: 20px;
+    width: auto;
+}
+.Ideate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.User_Personas {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.User_Personas .card {
+    border-color: #de5d00;
+    border-width:3px;
+}
+.User_Personas h5 {
+    color: #de5d00;
+    font-weight: 800;
+    padding: 18px 20px;
+
+}
+.User_Personas h6{
+    font-weight: 600;
+}
+.Card_text_top {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.card_containter {
+    justify-content: space-around;
+    display: flex;
+}
+
+.Card_Sorting {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.User_Flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Prototyping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sketching_Wireframes {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Sketches {
+    display: flex;
+    width: auto;
+    padding: 200px;
+    background: #909090;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.Test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.User_Testing {
+    padding: 0 20px;
+    margin: 50px 100px;
+    margin-bottom: 100px;
+}
+.Prototypes {
+    background: #fbf1e9;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Prototypes li {
+    text-decoration: none;
+    list-style: none;
+}
+.Prototypes h2{
+    text-align: center;
+    color: #de5d00;
+    pad
+}
+.container {
+    padding: 15px 0;
+}
+.container .col {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Final {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Bullets {
+    margin: 20px 0;
+}
+.Bullets > p {
+    margin-bottom: 10px;
+}   
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+
+}
+
+
