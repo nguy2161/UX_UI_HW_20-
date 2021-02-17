@@ -96,16 +96,14 @@ Jumbotron {
     color: #d14224;
 }
 
-}
 .Overview {
     padding: 0 20px;
-    margin: 25px 100px;
+    margin: 50px 100px;
 }
 
 .Overview > .col {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .Overview > .col > .row {
@@ -128,7 +126,7 @@ Jumbotron {
     padding: 0 20px;
     margin: 50px 100px;
 }
-.My_Process{
+.Design_Process{
     padding: 0 20px;
     margin: 50px 100px;
 }
@@ -249,7 +247,6 @@ Jumbotron {
 .Prototypes h2{
     text-align: center;
     color: #de5d00;
-    pad
 }
 .container {
     padding: 15px 0;
