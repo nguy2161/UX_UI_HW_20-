@@ -84,7 +84,7 @@ Jumbotron {
     justify-content: center;
     align-items: center;
     background: #fbf1e9;
-    min-height: 100vh;
+    min-height: 80vh;
     text-align: center;
 }
 
@@ -94,6 +94,8 @@ Jumbotron {
 }
 .nav a{
     color: #d14224;
+}
+
 }
 .Overview {
     padding: 0 20px;
