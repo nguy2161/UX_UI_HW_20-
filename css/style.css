@@ -95,20 +95,22 @@ Jumbotron {
 .nav a{
     color: #d14224;
 }
-
 .Overview {
-    padding: 0 20px;
-    margin: 50px 100px;
+    padding: 0 30px;
+    margin: 80px 100px;
 }
 
 .Overview > .col {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .Overview > .col > .row {
     display: flex;
+    flex-direction: row;
     margin-bottom: 10px;
+    justify-content: left;
 }
 
 .Overview > .col > .row > .col-1 {
