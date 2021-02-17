@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
 body{
     margin: 0;
     line-height: 1.5;
@@ -99,18 +101,20 @@ Jumbotron {
     padding: 0 30px;
     margin: 80px 100px;
 }
+.Overview h2 {
+    padding-bottom: 15px;
+}
 
 .Overview > .col {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: left;
 }
 
 .Overview > .col > .row {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    justify-content: left;
 }
 
 .Overview > .col > .row > .col-1 {
